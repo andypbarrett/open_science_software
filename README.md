@@ -35,8 +35,17 @@ Within the context of data center it is likely that they will be mostly responsi
 Who maintains research software?  
 Who can contribute?  
 Level of support.  
-Nadia Eghbal's Working in Public is a good a good intro the modern open source software and collaborative environments.  
+Open Source does not have to mean actively seeking input to projects.  Mission and research data product software will not be run by users.  No one (only a few maybe one person) is going to want to run the Sea Ice Index code locally.  Only the data will be used.  However, making the software/code public helps to document workflows and algorithms.  The code will be static and require little maintainance.  
+Nadia Eghbal's Working in Public is a good a good intro the modern open source software and collaborative environments. Project structure are classified into Federations, Stadiums, Clubs and Toys based on User Growth and Contributor Growth.
 
+|         | High User Growth | Low User Growth |
+|---------|------------------|-----------------|
+| **High Conributor Growth** | Federations (e.g. Rust) | Clubs (e.g. Astropy) |
+| **Low Contributor Growth** | Stadiums (e.g. Babel) | Toys (e.g. ssh-chat) |
+
+This table could be rewritten to reflect scientific software.  Federations are rare, active large contributor and large user community projects.  I think of clubs as hobby groups working on small but possibly impactful projects within a domain.  `icepyx` might be one example of a _Club_.  I don't like the term Toys, in this context, but code for publications and individual science projects might fit into the low user growth, low contributor growth quadrant.  Stadiums have few contributors but many users.  This might be a processing tool we host.
+
+We can control the "Level of Service" and engagement based on software type and purpose.  In many cases we don't have to actively maintain code, as long as it runs without errors.  How easy it is to maintain depends on the code itself and the level of documentation.  If NSIDC is to maintain code, we need to ensure the code can be maintained without too much effort on our part.  Alternatively, we need to seek funding to refactor code to make it easily maintainable.
 ## References
 [USGS code types](https://github.com/emartinez-usgs/best-practices/blob/b44ccae73a3915eb644036ed37f004f8702fe71f/software/types.md)
 
