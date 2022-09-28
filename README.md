@@ -32,10 +32,10 @@ Within the context of data center it is likely that they will be mostly responsi
 - A way to access the data.
 
 ## Maintaining Software
-Who maintains research software?
-Who can contribute?
-Level of support.
-Nadia Eghbal's Working in Public is a good a good intro the modern open source software and collaborative environments.
+Who maintains research software?  
+Who can contribute?  
+Level of support.  
+Nadia Eghbal's Working in Public is a good a good intro the modern open source software and collaborative environments.  
 
 ## References
 [USGS code types](https://github.com/emartinez-usgs/best-practices/blob/b44ccae73a3915eb644036ed37f004f8702fe71f/software/types.md)
