@@ -46,6 +46,11 @@ Nadia Eghbal's Working in Public is a good a good intro the modern open source s
 This table could be rewritten to reflect scientific software.  Federations are rare, active large contributor and large user community projects.  I think of clubs as hobby groups working on small but possibly impactful projects within a domain.  `icepyx` might be one example of a _Club_.  I don't like the term Toys, in this context, but code for publications and individual science projects might fit into the low user growth, low contributor growth quadrant.  Stadiums have few contributors but many users.  This might be a processing tool we host.
 
 We can control the "Level of Service" and engagement based on software type and purpose.  In many cases we don't have to actively maintain code, as long as it runs without errors.  How easy it is to maintain depends on the code itself and the level of documentation.  If NSIDC is to maintain code, we need to ensure the code can be maintained without too much effort on our part.  Alternatively, we need to seek funding to refactor code to make it easily maintainable.
+
+## Versioning and citation
+Code needs to be versioned and each version associated with a dataset needs to have a unique identifier for citation.  
+Github is a collaborative tool not an archive for code.  
+
 ## References
 [USGS code types](https://github.com/emartinez-usgs/best-practices/blob/b44ccae73a3915eb644036ed37f004f8702fe71f/software/types.md)
 
