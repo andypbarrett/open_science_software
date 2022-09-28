@@ -39,3 +39,6 @@ Nadia Eghbal's Working in Public is a good a good intro the modern open source s
 
 ## References
 [USGS code types](https://github.com/emartinez-usgs/best-practices/blob/b44ccae73a3915eb644036ed37f004f8702fe71f/software/types.md)
+
+Eghbal, N. (2020). Working in public: the making and maintenance of open source software (First Edition). San Francisco: Stripe Press.
+
